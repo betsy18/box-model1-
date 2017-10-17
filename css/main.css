@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+h1{
+    /*solo dibuja una linea en el elemento*/
+    outline: 1px solid purple;
+}
+
+ul{
+    outline: 1px solid peru;
+    width: 241px;
+    padding: 0;
+}
+
+li{
+    outline: 1px solid red;
+    list-style: none;
+}
+
+.enlaces{
+    outline: 1px solid yellow;
+    display: inline-block;
+    width: 100px;
+    color: green;
+    text-decoration: none;
+    text-align: center;
+}
+/*width total 300px
+#title{
+    text-align: center;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid blue;
+    margin: 16px;
+}
+/*width total: 300px 
+
+#subTitle{
+    border: 1px solid red;
+    text-align: center;
+    width: 300px;
+    padding: 8px;
+    margin: 16px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.enlaces {
+    color: black;
+    /*para quitar el subrayado
+    text-decoration: none;
+    border: 1px solid red;
+    display: block;
+    width: 200px;
+}
+
+.enlaces:hover{
+    text-decoration: underline;
+}*/
